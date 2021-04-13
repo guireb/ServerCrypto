@@ -1,0 +1,23 @@
+{
+    "name": "servercrypto",
+    "version": "1.0.0",
+    "description": "supervisor ebsocket",
+    "main": "start.js",
+    "scripts": {
+        "test": "node start.js",
+        "start": "node start.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FoxCryptoBot/ServerCrypto.git"
+    },
+    "keywords": [
+        "supervisor"
+    ],
+    "author": "Fooxiie",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/FoxCryptoBot/ServerCrypto/issues"
+    },
+    "homepage": "https://github.com/FoxCryptoBot/ServerCrypto#readme"
+}
