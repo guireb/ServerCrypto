@@ -4,7 +4,7 @@ const server = net.createServer((socket) => {
     socket.on('data', (data) => {
         console.log(data.toString());
     });
-    socket.write('serv: bien recu.');
+    socket.write('serv: bien recu. bonjour moi c gui !');
     socket.end('serv: terminé.');
 }).on('error', (err) => {
     console.error(err);
